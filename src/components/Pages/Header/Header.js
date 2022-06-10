@@ -25,7 +25,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
             >
               <li>
                 <Link to="/" className="">
@@ -35,6 +35,11 @@ const Header = () => {
               <li>
                 <Link to="/about" className="">
                   About me
+                </Link>
+              </li>
+              <li>
+                <Link to="/blog" className="">
+                  blogs
                 </Link>
               </li>
               <li>
@@ -49,7 +54,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="text-3xl font-bold text-emerald-400 ">
+          <div className="">
             <Link to="/">
               <img
                 src="https://images.vexels.com/media/users/3/142336/isolated/preview/bff1bf07bd10a618c15585bad3a73220-letterhead-red-neon-text-n.png?fmt=webp&h=250" className="w-16"
@@ -71,6 +76,11 @@ const Header = () => {
                 About me
               </Link>
             </li>
+            <li>
+              <Link to="/blog" className="">
+                blogs
+              </Link>
+            </li>
             
             <li>
               <Link to="/project" className="">
@@ -83,29 +93,6 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </div>
-
-        <div className="navbar-end">
-          <label
-            tabIndex="1"
-            htmlFor="dashBoard-sideBar"
-            className="btn btn-ghost lg:hidden"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
         </div>
       </div>
     </section>

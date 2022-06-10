@@ -4,7 +4,7 @@ import React from "react";
 const Services = () => {
   return (
     <div className="mt-10">
-      <h2 className="text-3xl text-secondary text-center mb-20">services</h2>
+      <h2 className="text-5xl text-primary text-center mb-20">services</h2>
 
       <div className="card-area grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
         <div class="card card-compact lg:w-96 bg-white shadow-xl mb-10">
@@ -21,7 +21,7 @@ const Services = () => {
         </div>
         <div class="card card-compact lg:w-96 bg-white shadow-xl mb-10">
           <div class="card-body text-black">
-            <h2 class="card-title ">web responsive design</h2>
+            <h2 class="card-title ">Web responsive design</h2>
             <p>Learning HTML and CSS is a lot more challenging than it used to be. Responsive web design adds more layers of complexity to design and develop websites.</p>
           </div>
         </div>

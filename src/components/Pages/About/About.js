@@ -1,23 +1,69 @@
 import React from "react";
+import './About.css'
 
 const About = () => {
+  
   return (
-    <section>
-      <h2 className="text-3xl text-center mb-10 text-secondary">About me</h2>
-      <div class="hero min-h-screen">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-          <img 
-            src="https://scontent.fcgp24-1.fna.fbcdn.net/v/t1.6435-9/64581959_2368361370155576_5453960449844314112_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGfut7mtVros-zcOz1MWk6NUCWfVIVjfhpQJZ9UhWN-GmPrXhZC1eOSw-pqcUXYfNyPW-d2AgjsZjCbCoDJTzCz&_nc_ohc=KXnswz8imwsAX_e9kd9&tn=ekUGXQEMmc_kJn4Z&_nc_pt=1&_nc_ht=scontent.fcgp24-1.fna&oh=00_AT-cmKNXwb3t_5gU9MdMtzEV_TqKbAViKZDM026Wox-RkA&oe=62C709B7"
-            className=" shadow-2xl w-56 h-56 rounded-3xl" alt="about.img"
-          />
-          <div className="lg:mr-24">
-            <p class="py-6">
-            Hi,  My name is Nishan Das.<br/>  
-            I am front end developer. I start web development learning in July 2021.<br/> Recently I can completed front-end development with good knowledge.<br/> Now, I am looking for an internship for the full-time job based on front-end <br/>development. I want to grow up my skills by working with a good company.
-            </p>
-            <button class="btn btn-primary"><a href="https://drive.google.com/file/d/1ljNpGT2d-GBMFbJpqD1h86sU7ujd3K0C/view?usp=sharing">My Resume</a></button>
-          </div>
+    <section className="about-area mb-20 mt-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1">
+      <div className="about-content">
+        <div className="about-header">
+          <h2 className="text-5xl font-bold text-primary">
+            About Myself and Me
+          </h2>
         </div>
+        <p class="py-6">
+          Hi, My name is Nishan Das.
+          <br />
+          I am front end developer. I start web development learning in July
+          2021.
+          <br /> Recently I can completed front-end development with good
+          knowledge.
+        </p>
+        <p>
+          I am well-versed in HTML, CSS, JavaScript, React js, Bootstrap,
+          Tailwind css,Node js,daisy Components, <br /> TypeScript, React
+          native, and I have essential programming experience working on my
+          personal projects.
+          <br /> I also have a good knowledge of MongoDB , firebase
+          authentication, Netlify, Heroku, and GitHub.
+        </p>
+        <button className="btn-one  mt-10">
+          <div className="btn-content">
+            <span className="bg"></span>
+            <span className="base"></span>
+            <span className="text">
+              <a href="https://drive.google.com/file/d/1ljNpGT2d-GBMFbJpqD1h86sU7ujd3K0C/view?usp=sharing">
+                My Resume
+              </a>
+            </span>
+          </div>
+        </button>
+      </div>
+      <div className="skills-chart p-10 mt-12">
+          <div class="tag">
+            <a class="tag3">HTML5</a>
+            <a class="tag1">CSS 3</a>
+            <a class="tag0">JavaScript</a>
+            <a class="tag3">React js</a>
+            <a class="tag3">Bootstrap</a>
+            <a class="tag3">Tailwind css</a>
+            <a class="tag5">daisy Components</a>
+            <a class="tag0">TypeScript</a>
+            <a class="tag4">React
+          native</a>
+            <a class="tag3">MongoDB</a>
+            <a class="tag8">firebase</a>
+            <a class="tag3">Heroku</a>
+            <a class="tag9">GitHub</a>
+            <a class="tag4">Node js</a>
+            <a class="tag6">Responsive Website design</a>
+            <a class="tag4">web development</a>
+            <a class="tag3">Netlify</a>
+            <a class="tag9">javascript</a>
+            <a class="tag7">testing</a>
+            <a class="tag2">project management</a>
+          </div>
+        
       </div>
     </section>
   );

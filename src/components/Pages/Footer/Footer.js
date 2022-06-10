@@ -3,7 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <section>
-      <footer class="footer p-10 bg-accent text-neutral-content">
+      <footer>
+        <section className="footer text-neutral-content">
         <div>
           <span class="footer-title">Services</span>
           <a class="link link-hover">Branding</a>
@@ -24,7 +25,10 @@ const Footer = () => {
           <a class="link link-hover">Privacy policy</a>
           <a class="link link-hover">Cookie policy</a>
         </div>
+        </section>
+        <p className="text-center mt-5 text-primary">Designed & Built by Nishan Das</p>
       </footer>
+     
     </section>
   );
 };

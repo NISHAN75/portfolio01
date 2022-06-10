@@ -1,0 +1,28 @@
+[
+  {
+    "id":"01",
+    "name":"Bicycles website",
+    "img":"https://pbs.twimg.com/media/FUzyjvHakAI5HgE?format=jpg&name=small",
+    "deception":"1.I use React js create this website 2.I  React tailwind css 3.I  Tailwind daisyui component 4.I  React icons 5.I  React router 6.I  firebase authentication 7.I  firebase email/password and one Single Google sign in use social login 8.Server site i use mongodb also",
+    "Live":"https://biycle-web.firebaseapp.com/",
+    "client":"https://github.com/NISHAN75/manufacturer-website-client-side",
+    "server":"https://github.com/NISHAN75/manufacturer-website-server-side"
+  },
+  {
+    "id":"02",
+    "name":"furniture website",
+    "img":"https://pbs.twimg.com/media/FUzyPrqakAAaSKb?format=jpg&name=small",
+    "deception":"1.I use React js create this website 2.I  React tailwind css 3.I  Tailwind daisyui component 4.I  React icons 5.I  React router 6.I  firebase authentication 7.I  firebase email/password and one Single Google sign in use social login 8.Server site i use mongodb also",
+    "Live":"https://furniture-web-8900a.firebaseapp.com/",
+    "client":"https://github.com/NISHAN75/warehouse-management",
+    "server":"https://github.com/NISHAN75/warehouse-management-server"
+  },
+  {
+    "id":"03",
+    "name":"financial website",
+    "img":"https://pbs.twimg.com/media/FUzyn8caUAIItTQ?format=jpg&name=small",
+    "deception":"1.I use React js create this website 2.I  React tailwind css 3.I  Tailwind daisyui component 4.I  React icons 5.I  React router 6.I  firebase authentication 7.I  firebase email/password and one Single Google sign in use social login 7.Server site i use mongodb also",
+    "Live":"https://financial-website-b12a2.firebaseapp.com/",
+    "client":"https://github.com/NISHAN75/independent-service-provider"
+  }
+]

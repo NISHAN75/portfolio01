@@ -1,0 +1,142 @@
+.btn-one{
+  font-style: bold;
+  margin-top: 50px 0 0;
+  text-decoration: none;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  letter-spacing: 3px;
+  position: relative;
+  border-radius: 5px;
+}
+.btn-one .btn-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+}
+.btn-one span.bg{
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: -5px;
+  top: 0;
+  background-color: #08fdd8;
+  transform: skewX(-19deg);
+  transition: all .3s ease-in-out;
+  
+}
+.btn-one:hover span.bg{
+  width: 110%;
+}
+.btn-one span.base{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border: 1px solid #08fdd8;
+  box-sizing: border-box;
+}
+.btn-one span.text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #08fdd8;
+}
+.btn-one:hover span.text{
+  color: #1d1d1d;
+}
+.btn-two{
+  font-style: bold;
+  margin-top: 50px 0 0;
+  text-decoration: none;
+  width: 100%;
+  max-width: 150px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  letter-spacing: 3px;
+  position: relative;
+  border-radius: 5px;
+}
+.btn-two .btn-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+}
+.btn-two span.bg{
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: -5px;
+  top: 0;
+  background-color: #FD2155;
+  transform: skewX(-19deg);
+  transition: all .3s ease-in-out;
+  
+}
+.btn-two:hover span.bg{
+  width: 110%;
+}
+.btn-two span.base{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border: 1px solid #FD2155;
+  box-sizing: border-box;
+}
+.btn-two .text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #FD2155;
+}
+.btn-two:hover .text .live-link{
+  color: #fff;
+}
+.scroll-down{
+  position: absolute;
+  right: 30px;
+  bottom: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+  display: block;
+  font-size: 14px;
+}
+.scroll-left{
+  left: -30px;
+  right: auto;
+}
+.scroll-down span{
+  display: inline-block;
+  animation: scroll .5s linear infinite alternate-reverse;
+}
+@keyframes scroll{
+  0%{
+    transform: translateX(-7px);
+  }
+  100%{
+    transform: translate(7px);
+  }
+}
+.s-icon {
+  transform: rotate(270deg);
+  margin-left: 80px;
+  margin-top: -15px;
+}
+.scroll-down.scroll-right {
+  right: -20px;
+}
