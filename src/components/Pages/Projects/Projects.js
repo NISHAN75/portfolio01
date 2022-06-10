@@ -10,7 +10,7 @@ const Projects = () => {
   },[])
   return (
     <section>
-      <h2 className="text-3xl text-center mb-20">My Projects</h2>
+      <h2 className="text-5xl text-center mb-20 text-primary">My Projects</h2>
 
       <div className="projects-area">
       
