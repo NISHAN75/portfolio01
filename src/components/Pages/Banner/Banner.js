@@ -20,7 +20,11 @@ const Banner = () => {
           <div className="btn-content">
             <span className="bg"></span>
             <span className="base"></span>
-            <span className="text">Contact Me</span>
+            <span className="text">
+              <a href="https://drive.google.com/file/d/1ljNpGT2d-GBMFbJpqD1h86sU7ujd3K0C/view?usp=sharing">
+                My Resume
+              </a>
+            </span>
           </div>
         </button>
       </div>
